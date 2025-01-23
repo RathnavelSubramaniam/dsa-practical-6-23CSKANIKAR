@@ -78,7 +78,7 @@ public void insertBegin(int data)
       newNode.next = head;
       head = newNode;
 
-      System.out.print("Element Inserted");   
+      System.out.println("Element Inserted");   
        }
     } 
 public void displayList() {
