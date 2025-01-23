@@ -71,7 +71,7 @@ public void insertBegin(int data)
 
        Node newNode = new Node(data);
 
-        if (head==null ){
+        if (head==null){
             head = newNode;
             tail = newNode;
         } else {
